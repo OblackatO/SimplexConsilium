@@ -121,13 +121,13 @@ def MoveGoalForward(project: SimplexConsilium):
             if goal.ID == goal_id:
                 project.doing.append(goal)
                 project.todo.remove(goal)
-                goal_found = not goal_found
+                goal_found = True
         if not goal_found:
             for goal in project.doing:
                 if goal.ID == goal_id:
                     project.done.append(goal)
                     project.doing.remove(goal)
-                    goal_found = not goal_found
+                    goal_found = True
         if not goal_found:
             print("[>]Goal: {} already done, or does not exist".format(goal_id))
             continue

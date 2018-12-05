@@ -46,7 +46,7 @@ class SimplexConsilium:
         :rtype: False if Goal already in DONE list.
         :param goal: Some Goal to be added to the DOING list.
         """
-        if goal not in self.doing:
+        if goal not in self.done:
             self.done.append(goal)
             return
         return False
