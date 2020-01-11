@@ -16,7 +16,7 @@ class DocToObj:
         to an object again.
         """
         with open(project_file_path, 'r') as project_file:
-            data = json.project_fileloads(project_file.read())
+            data = json.loads(project_file.read())
             simplex_project = SimplexConsilium(data['project_name'])
             self.simplex_project = simplex_project
 
