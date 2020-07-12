@@ -190,7 +190,7 @@ As already stated SimplexConsilium was created to manage my personal projects, h
 SimplexConsilium will be maintained.
 
 # Suggestions 
-If you have suggestions or remarks, please contact me directly at: (OblackatO@yandex.com || pegom0896@zoho.eu)    
+If you have suggestions or remarks, please contact me directly at: (OblackatO@yandex.com)    
 **PGP FingerPrint:** EC56C26526290AE9402216C64EF2D094664FA2B8  
 I will accept pull requests or suggestions that do not alter the conception behind SimplexConsilium.  
 If you would like to add more feautures to SimplexConsilium that go beyond its simplicity aim, please do a fork and have fun.    
